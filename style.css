@@ -35,8 +35,24 @@ body {
     width: 300px;
 }
 
-.color-input {
+.button {
     cursor: pointer;
+}
+
+.color-input {
+
+}
+
+.pink {
+    background-color: pink;
+}
+
+.lightGreen {
+    background-color: lightgreen;
+}
+
+.lightBlue {
+    background-color: lightblue;
 }
 
 .name-input {
