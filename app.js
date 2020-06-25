@@ -19,9 +19,6 @@ changeToLightBlueButton.addEventListener('click', () => {
     bigboi.style.border = "solid lightBlue 10px";
 })
 
-const changeNameButton = document.getElementById("nameInput");
-
-changeNameButton.addEventListener('click' () => {
-    const newName = changeNameButton.value,
-    console.log('newName'),
+document.getElementById("submit-button").addEventListener('click', () => {
+    document.getElementById("name").textContent = document.getElementById("nameInput");
 })
